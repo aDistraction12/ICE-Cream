@@ -2,8 +2,9 @@
 A Responsive 
 Landing page of an Ice-cream shop 
 created using HTML CSS and Javascript
-Phone!(https://user-images.githubusercontent.com/68678264/126041716-cc936e1f-be3f-4223-b05e-122855cdd7c9.png)
-Ice-Cream!(https://user-images.githubusercontent.com/68678264/126041603-695463a1-34e2-499d-aa2f-8c9314600b65.png)
+![Ice-Cream](https://user-images.githubusercontent.com/68678264/126041764-21a4deb1-c5a1-4231-98d2-ce2964a29d97.png)
+![Phone](https://user-images.githubusercontent.com/68678264/126041767-16923c70-869c-40dc-88e6-10a33b546099.png)
+
 
 
 
