@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ice-Cream Shop</title>
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="Images/Logo.png" alt="Logo"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Ice-Creams that you'll<br>Fell <span>in love with</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aut tempora voluptatem dolorum facere ut non provident sequi odit fugiat eius quia saepe, dolore libero?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="imgBox">
+                <img src="Images/main.png" class="icecream"alt="Ice-Cream">
+            </div>
+        </div>
+        <ul class="options">
+            <li><img src="Images/4.ico" onclick="imgSlider('Images/img3.png'); changeCircleColor('#dbd4d4')" alt="Ice-Cream"></li>
+            <li><img src="Images/5.ico" onclick="imgSlider('Images/img2.png');changeCircleColor('#eccfbb')"  alt="Ice-Cream"></li>
+            <li><img src="Images/6.ico" onclick="imgSlider('Images/img1.png'); changeCircleColor('#e199a7')" alt="Ice-Cream"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="#"><img src="Images/facebook.ico" alt="Facebook"></a></li>
+            <li><a href="#"><img src="Images/Instagram.ico" alt="Instagram"></a></li>
+            <li><a href="#"><img src="Images/Twitter.ico" alt="Twitter"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript" src="main.js">
+    </script>
+</body>
+</html>
